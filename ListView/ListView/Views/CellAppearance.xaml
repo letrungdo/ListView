@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="ListView.Views.CellAppearance">
+
+    <ListView ItemsSource="{Binding ListHoaQua}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout BackgroundColor="#eee"
+                        Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Image}" />
+                            <Label Text="{Binding Title}"
+                                TextColor="#f35e20" />
+                            <Label Text="{Binding SubTitle}"
+                                HorizontalOptions="EndAndExpand"
+                                TextColor="#503026" />
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
+</ContentPage>

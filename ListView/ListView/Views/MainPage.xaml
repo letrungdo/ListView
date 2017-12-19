@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListView.Views.MainPage"
+             xmlns:behavior="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+
+        <ListView ItemsSource="{Binding ListNhanVien}" 
+                  IsPullToRefreshEnabled="True" 
+                  RefreshCommand="{Binding RefreshCommand}" 
+                  IsRefreshing="{Binding IsRefreshing}">
+            
+            <ListView.Behaviors>
+                <behavior:EventToCommandBehavior
+                    EventName="ItemAppearing"
+                    Command="{Binding ItemAppearingCommand}"
+                    EventArgsParameterPath="Item"/>
+            </ListView.Behaviors>
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Ten}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Cell Appearance" Command="{Binding CellAppearanceClick}"/>
+    </StackLayout>
+
+</ContentPage>

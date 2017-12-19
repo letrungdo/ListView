@@ -1,0 +1,12 @@
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\bin\Debug\netstandard2.0\ListView.deps.json
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\bin\Debug\netstandard2.0\ListView.dll
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\bin\Debug\netstandard2.0\ListView.pdb
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.csprojResolveAssemblyReference.cache
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.csproj.CoreCompileInputs.cache
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.App.xaml.g.cs
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.Views.MainPage.xaml.g.cs
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.AssemblyInfoInputs.cache
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.AssemblyInfo.cs
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.dll
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.pdb
+C:\Users\Do\source\repos\_XAMARIN\ListView\ListView\ListView\obj\Debug\netstandard2.0\ListView.Views.CellAppearance.xaml.g.cs
